@@ -59,7 +59,7 @@ def image_process(filename):
     #     plt.title(titles[i])
     #     plt.xticks([]),plt.yticks([])
     # plt.show()
-    # cv2.imwrite(output_filename,ref3)
+    cv2.imwrite(output_filename,ref3)
     return output_filename
 
 if __name__ == '__main__':
